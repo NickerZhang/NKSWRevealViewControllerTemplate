@@ -1,0 +1,35 @@
+//
+//  NKSWRevealTemplate-Prefix.pch
+//  NKSWRevealTemplate
+//
+//  Created by Nick on 15/12/16.
+//  Copyright © 2015年 Nick. All rights reserved.
+//
+
+#ifndef NKSWRevealTemplate_Prefix_pch
+#define NKSWRevealTemplate_Prefix_pch
+//系统的头文件
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//获取宏定义头文件
+#import "Common.h"
+//接口头文件
+#import "URL.h"
+//常量头文件
+#import "Constant.h"
+//抽屉
+#import <SWRevealViewController.h>
+#import "NKNavigationController.h"
+#import "UINavigationController+NK.h"
+#import "NKUtils.h"
+
+//屏蔽REALSE版本的打印信息
+#ifdef DEBUG
+#define NKLog(...) NSLog(__VA_ARGS__)
+#else
+#define NKLog(...)
+#endif
+
+#endif /* NKSWRevealTemplate_Prefix_pch */
+
+

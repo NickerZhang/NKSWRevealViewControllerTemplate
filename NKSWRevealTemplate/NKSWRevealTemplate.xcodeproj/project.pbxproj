@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01AD53131C23925300EA7761 /* NKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AD53121C23925300EA7761 /* NKUtils.m */; };
+		01AD53161C2396CD00EA7761 /* NKFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AD53151C2396CD00EA7761 /* NKFactory.m */; };
+		01B4C6D11C2108E000110DB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4C6D01C2108E000110DB1 /* main.m */; };
+		01B4C6D41C2108E000110DB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4C6D31C2108E000110DB1 /* AppDelegate.m */; };
+		01B4C6DC1C2108E000110DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B4C6DB1C2108E000110DB1 /* Assets.xcassets */; };
+		01B4C6F71C2149BF00110DB1 /* NKNetWorkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4C6F61C2149BF00110DB1 /* NKNetWorkController.m */; };
+		01B4C6FC1C214AA700110DB1 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4C6FB1C214AA700110DB1 /* MBProgressHUD+MJ.m */; };
+		01B4C6FF1C214DB300110DB1 /* NSString+NK.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4C6FE1C214DB300110DB1 /* NSString+NK.m */; };
+		01B4C7021C214DFA00110DB1 /* NKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4C7011C214DFA00110DB1 /* NKNavigationController.m */; };
+		01B4C7051C2153CF00110DB1 /* UIImage+NK.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4C7041C2153CF00110DB1 /* UIImage+NK.m */; };
+		01B4C7081C2154A000110DB1 /* NKBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4C7071C2154A000110DB1 /* NKBaseController.m */; };
+		01B4C70E1C21606F00110DB1 /* NKFrontController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4C70D1C21606F00110DB1 /* NKFrontController.m */; };
+		01B4C7111C21608000110DB1 /* NKRearController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4C7101C21608000110DB1 /* NKRearController.m */; };
+		01B4C7141C216AF600110DB1 /* NKPushController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4C7131C216AF600110DB1 /* NKPushController.m */; };
+		01B4DA581C22A98800564697 /* UINavigationController+NK.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4DA571C22A98800564697 /* UINavigationController+NK.m */; };
+		375E67B6A64320913E4E752E /* libPods-NKSWRevealTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F4531D8886EBA9B9511A10 /* libPods-NKSWRevealTemplate.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01AD53111C23925300EA7761 /* NKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKUtils.h; sourceTree = "<group>"; };
+		01AD53121C23925300EA7761 /* NKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKUtils.m; sourceTree = "<group>"; };
+		01AD53141C2396CD00EA7761 /* NKFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKFactory.h; sourceTree = "<group>"; };
+		01AD53151C2396CD00EA7761 /* NKFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKFactory.m; sourceTree = "<group>"; };
+		01B4C6CC1C2108DF00110DB1 /* NKSWRevealTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NKSWRevealTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B4C6D01C2108E000110DB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SystemFile/main.m; sourceTree = "<group>"; };
+		01B4C6D21C2108E000110DB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SystemFile/AppDelegate.h; sourceTree = "<group>"; };
+		01B4C6D31C2108E000110DB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SystemFile/AppDelegate.m; sourceTree = "<group>"; };
+		01B4C6DB1C2108E000110DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01B4C6E01C2108E000110DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SystemFile/Info.plist; sourceTree = "<group>"; };
+		01B4C6F11C21131E00110DB1 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		01B4C6F21C21135600110DB1 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		01B4C6F31C21135E00110DB1 /* URL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URL.h; sourceTree = "<group>"; };
+		01B4C6F41C21462000110DB1 /* NKSWRevealTemplate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NKSWRevealTemplate-Prefix.pch"; path = "SystemFile/NKSWRevealTemplate-Prefix.pch"; sourceTree = "<group>"; };
+		01B4C6F51C2149BF00110DB1 /* NKNetWorkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKNetWorkController.h; sourceTree = "<group>"; };
+		01B4C6F61C2149BF00110DB1 /* NKNetWorkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKNetWorkController.m; sourceTree = "<group>"; };
+		01B4C6FA1C214AA700110DB1 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		01B4C6FB1C214AA700110DB1 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		01B4C6FD1C214DB300110DB1 /* NSString+NK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NK.h"; sourceTree = "<group>"; };
+		01B4C6FE1C214DB300110DB1 /* NSString+NK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NK.m"; sourceTree = "<group>"; };
+		01B4C7001C214DFA00110DB1 /* NKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKNavigationController.h; sourceTree = "<group>"; };
+		01B4C7011C214DFA00110DB1 /* NKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKNavigationController.m; sourceTree = "<group>"; };
+		01B4C7031C2153CF00110DB1 /* UIImage+NK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NK.h"; sourceTree = "<group>"; };
+		01B4C7041C2153CF00110DB1 /* UIImage+NK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NK.m"; sourceTree = "<group>"; };
+		01B4C7061C2154A000110DB1 /* NKBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKBaseController.h; sourceTree = "<group>"; };
+		01B4C7071C2154A000110DB1 /* NKBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKBaseController.m; sourceTree = "<group>"; };
+		01B4C70C1C21606F00110DB1 /* NKFrontController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKFrontController.h; sourceTree = "<group>"; };
+		01B4C70D1C21606F00110DB1 /* NKFrontController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKFrontController.m; sourceTree = "<group>"; };
+		01B4C70F1C21608000110DB1 /* NKRearController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKRearController.h; sourceTree = "<group>"; };
+		01B4C7101C21608000110DB1 /* NKRearController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKRearController.m; sourceTree = "<group>"; };
+		01B4C7121C216AF600110DB1 /* NKPushController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKPushController.h; sourceTree = "<group>"; };
+		01B4C7131C216AF600110DB1 /* NKPushController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKPushController.m; sourceTree = "<group>"; };
+		01B4DA561C22A98800564697 /* UINavigationController+NK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+NK.h"; sourceTree = "<group>"; };
+		01B4DA571C22A98800564697 /* UINavigationController+NK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+NK.m"; sourceTree = "<group>"; };
+		92F4531D8886EBA9B9511A10 /* libPods-NKSWRevealTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NKSWRevealTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA392DCA269B056359ABE54 /* Pods-NKSWRevealTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKSWRevealTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-NKSWRevealTemplate/Pods-NKSWRevealTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		A3E3774C048DB22AAC206A58 /* Pods-NKSWRevealTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKSWRevealTemplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NKSWRevealTemplate/Pods-NKSWRevealTemplate.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01B4C6C91C2108DF00110DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375E67B6A64320913E4E752E /* libPods-NKSWRevealTemplate.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01AD530F1C23920500EA7761 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				01AD53141C2396CD00EA7761 /* NKFactory.h */,
+				01AD53151C2396CD00EA7761 /* NKFactory.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		01AD53101C23920500EA7761 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				01AD53111C23925300EA7761 /* NKUtils.h */,
+				01AD53121C23925300EA7761 /* NKUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		01B4C6C31C2108DF00110DB1 = {
+			isa = PBXGroup;
+			children = (
+				01B4C6CE1C2108E000110DB1 /* NKSWRevealTemplate */,
+				01B4C6CD1C2108DF00110DB1 /* Products */,
+				24A4E817F6311F558350358A /* Pods */,
+				BA607142CBB4182669AA35AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01B4C6CD1C2108DF00110DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01B4C6CC1C2108DF00110DB1 /* NKSWRevealTemplate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01B4C6CE1C2108E000110DB1 /* NKSWRevealTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				01B4C6F81C214A9A00110DB1 /* Others */,
+				01B4C6EF1C21115D00110DB1 /* CommonHeader */,
+				01B4C6E61C21115D00110DB1 /* BaseClass */,
+				01B4C6EA1C21115D00110DB1 /* BusinessClass */,
+				01B4C6D21C2108E000110DB1 /* AppDelegate.h */,
+				01B4C6D31C2108E000110DB1 /* AppDelegate.m */,
+				01B4C6DB1C2108E000110DB1 /* Assets.xcassets */,
+				01B4C6CF1C2108E000110DB1 /* Supporting Files */,
+			);
+			path = NKSWRevealTemplate;
+			sourceTree = "<group>";
+		};
+		01B4C6CF1C2108E000110DB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01B4C6F41C21462000110DB1 /* NKSWRevealTemplate-Prefix.pch */,
+				01B4C6E01C2108E000110DB1 /* Info.plist */,
+				01B4C6D01C2108E000110DB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01B4C6E61C21115D00110DB1 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				01B4C6E71C21115D00110DB1 /* BaseController */,
+				01B4C6E81C21115D00110DB1 /* BaseModel */,
+				01B4C6E91C21115D00110DB1 /* BaseView */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		01B4C6E71C21115D00110DB1 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				01B4C6F51C2149BF00110DB1 /* NKNetWorkController.h */,
+				01B4C6F61C2149BF00110DB1 /* NKNetWorkController.m */,
+				01B4C7001C214DFA00110DB1 /* NKNavigationController.h */,
+				01B4C7011C214DFA00110DB1 /* NKNavigationController.m */,
+				01B4C7061C2154A000110DB1 /* NKBaseController.h */,
+				01B4C7071C2154A000110DB1 /* NKBaseController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		01B4C6E81C21115D00110DB1 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		01B4C6E91C21115D00110DB1 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		01B4C6EA1C21115D00110DB1 /* BusinessClass */ = {
+			isa = PBXGroup;
+			children = (
+				01B4C6EB1C21115D00110DB1 /* BasinessOne */,
+			);
+			path = BusinessClass;
+			sourceTree = "<group>";
+		};
+		01B4C6EB1C21115D00110DB1 /* BasinessOne */ = {
+			isa = PBXGroup;
+			children = (
+				01B4C6EC1C21115D00110DB1 /* Controller */,
+				01B4C6ED1C21115D00110DB1 /* Model */,
+				01B4C6EE1C21115D00110DB1 /* View */,
+			);
+			path = BasinessOne;
+			sourceTree = "<group>";
+		};
+		01B4C6EC1C21115D00110DB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				01B4C70C1C21606F00110DB1 /* NKFrontController.h */,
+				01B4C70D1C21606F00110DB1 /* NKFrontController.m */,
+				01B4C70F1C21608000110DB1 /* NKRearController.h */,
+				01B4C7101C21608000110DB1 /* NKRearController.m */,
+				01B4C7121C216AF600110DB1 /* NKPushController.h */,
+				01B4C7131C216AF600110DB1 /* NKPushController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		01B4C6ED1C21115D00110DB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		01B4C6EE1C21115D00110DB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		01B4C6EF1C21115D00110DB1 /* CommonHeader */ = {
+			isa = PBXGroup;
+			children = (
+				01B4C6F11C21131E00110DB1 /* Common.h */,
+				01B4C6F21C21135600110DB1 /* Constant.h */,
+				01B4C6F31C21135E00110DB1 /* URL.h */,
+			);
+			path = CommonHeader;
+			sourceTree = "<group>";
+		};
+		01B4C6F81C214A9A00110DB1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				01AD530F1C23920500EA7761 /* Factory */,
+				01AD53101C23920500EA7761 /* Utils */,
+				01B4C6F91C214A9A00110DB1 /* Category */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		01B4C6F91C214A9A00110DB1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				01B4C7031C2153CF00110DB1 /* UIImage+NK.h */,
+				01B4C7041C2153CF00110DB1 /* UIImage+NK.m */,
+				01B4C6FD1C214DB300110DB1 /* NSString+NK.h */,
+				01B4C6FE1C214DB300110DB1 /* NSString+NK.m */,
+				01B4C6FA1C214AA700110DB1 /* MBProgressHUD+MJ.h */,
+				01B4C6FB1C214AA700110DB1 /* MBProgressHUD+MJ.m */,
+				01B4DA561C22A98800564697 /* UINavigationController+NK.h */,
+				01B4DA571C22A98800564697 /* UINavigationController+NK.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		24A4E817F6311F558350358A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3E3774C048DB22AAC206A58 /* Pods-NKSWRevealTemplate.debug.xcconfig */,
+				9BA392DCA269B056359ABE54 /* Pods-NKSWRevealTemplate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA607142CBB4182669AA35AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92F4531D8886EBA9B9511A10 /* libPods-NKSWRevealTemplate.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01B4C6CB1C2108DF00110DB1 /* NKSWRevealTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B4C6E31C2108E000110DB1 /* Build configuration list for PBXNativeTarget "NKSWRevealTemplate" */;
+			buildPhases = (
+				A62AF8F2298F56C2E2E2CD39 /* Check Pods Manifest.lock */,
+				01B4C6C81C2108DF00110DB1 /* Sources */,
+				01B4C6C91C2108DF00110DB1 /* Frameworks */,
+				01B4C6CA1C2108DF00110DB1 /* Resources */,
+				A86CFE1F3E3F1A0548CBA15A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NKSWRevealTemplate;
+			productName = NKSWRevealTemplate;
+			productReference = 01B4C6CC1C2108DF00110DB1 /* NKSWRevealTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01B4C6C41C2108DF00110DB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Nick;
+				TargetAttributes = {
+					01B4C6CB1C2108DF00110DB1 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 01B4C6C71C2108DF00110DB1 /* Build configuration list for PBXProject "NKSWRevealTemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01B4C6C31C2108DF00110DB1;
+			productRefGroup = 01B4C6CD1C2108DF00110DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01B4C6CB1C2108DF00110DB1 /* NKSWRevealTemplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01B4C6CA1C2108DF00110DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B4C6DC1C2108E000110DB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A62AF8F2298F56C2E2E2CD39 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A86CFE1F3E3F1A0548CBA15A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NKSWRevealTemplate/Pods-NKSWRevealTemplate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01B4C6C81C2108DF00110DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B4C6FC1C214AA700110DB1 /* MBProgressHUD+MJ.m in Sources */,
+				01B4C6D41C2108E000110DB1 /* AppDelegate.m in Sources */,
+				01B4C7141C216AF600110DB1 /* NKPushController.m in Sources */,
+				01B4C7021C214DFA00110DB1 /* NKNavigationController.m in Sources */,
+				01B4C6FF1C214DB300110DB1 /* NSString+NK.m in Sources */,
+				01B4C7051C2153CF00110DB1 /* UIImage+NK.m in Sources */,
+				01B4C7081C2154A000110DB1 /* NKBaseController.m in Sources */,
+				01B4C6D11C2108E000110DB1 /* main.m in Sources */,
+				01AD53131C23925300EA7761 /* NKUtils.m in Sources */,
+				01B4DA581C22A98800564697 /* UINavigationController+NK.m in Sources */,
+				01B4C70E1C21606F00110DB1 /* NKFrontController.m in Sources */,
+				01AD53161C2396CD00EA7761 /* NKFactory.m in Sources */,
+				01B4C7111C21608000110DB1 /* NKRearController.m in Sources */,
+				01B4C6F71C2149BF00110DB1 /* NKNetWorkController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01B4C6E11C2108E000110DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01B4C6E21C2108E000110DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01B4C6E41C2108E000110DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E3774C048DB22AAC206A58 /* Pods-NKSWRevealTemplate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NKSWRevealTemplate/SystemFile/NKSWRevealTemplate-Prefix.pch";
+				INFOPLIST_FILE = NKSWRevealTemplate/SystemFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhidong.NKSWRevealTemplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01B4C6E51C2108E000110DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA392DCA269B056359ABE54 /* Pods-NKSWRevealTemplate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NKSWRevealTemplate/SystemFile/NKSWRevealTemplate-Prefix.pch";
+				INFOPLIST_FILE = NKSWRevealTemplate/SystemFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhidong.NKSWRevealTemplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01B4C6C71C2108DF00110DB1 /* Build configuration list for PBXProject "NKSWRevealTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B4C6E11C2108E000110DB1 /* Debug */,
+				01B4C6E21C2108E000110DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B4C6E31C2108E000110DB1 /* Build configuration list for PBXNativeTarget "NKSWRevealTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B4C6E41C2108E000110DB1 /* Debug */,
+				01B4C6E51C2108E000110DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01B4C6C41C2108DF00110DB1 /* Project object */;
+}
